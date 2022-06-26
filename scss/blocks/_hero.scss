@@ -1,0 +1,71 @@
+.hero{
+  background: rgba(242, 242, 242, 0.4);
+
+  &__wrapper {
+    margin-right: 172px;
+  }
+
+  &__desk-sony{
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF9900;
+  }
+
+  &__heading{
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+  }
+
+  &__desc{
+    margin: 0;
+    padding-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(35, 47, 62, 0.48);
+  }
+
+  &__button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 32px;
+    left: 0px;
+    top: 260px;
+    background: #146EB4;
+    border: none;
+  }
+
+  &__link {
+    padding-left: 12px;
+    width: 124px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #146EB4;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #146EB4;
+  }
+  &__link:hover{
+    opacity: 0.7;
+  }
+}

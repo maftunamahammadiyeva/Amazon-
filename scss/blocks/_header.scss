@@ -1,0 +1,38 @@
+.header {
+
+  &__form {
+    background: rgba(242, 242, 242, 0.4);
+  }
+  &__select{
+    background: none;
+    border: none;
+  }
+  &__input {
+    border-left: 1px solid rgba(242, 242, 242, 0.2);
+    background: none;
+    border: none;
+    width: 402px;
+  }
+
+  &__location{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+  }
+
+  &__login-button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    background: #232F3E;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+}

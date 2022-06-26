@@ -1,40 +1,36 @@
-.main {
-  flex-grow: 1;
-}
+.product {
 
-.categories {
-
-  &__text {
+  &__desc{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #000000
+    color: #000000;
   }
 
   &__list {
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-left: -20px;
   }
 
-  &__item {
-    margin-left: 20px;
-    background: #F9F9F9;
-    width: 100px;
-    padding: 20px;
-  }
-  &__desc {
-    margin: 0;
-    margin-top: 5px;
+  &__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    text-align: center;
-    color: #232F3E;
+    color: rgba(35, 47, 62, 0.48);
   }
+
+  &__heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+  }
+
 }
